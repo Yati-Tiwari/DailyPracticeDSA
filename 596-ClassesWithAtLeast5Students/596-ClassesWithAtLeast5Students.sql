@@ -1,0 +1,3 @@
+-- Last updated: 8/14/2025, 11:23:00 AM
+# Write your MySQL query statement below
+SELECT CLASS FROM COURSES GROUP BY CLASS HAVING COUNT(STUDENT)>=5;
